@@ -1,0 +1,17 @@
+.content {
+    width: 25%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.btn {
+    font-size: 25px;
+    padding: 14px 120px;
+    margin: 0.5rem;
+
+}
