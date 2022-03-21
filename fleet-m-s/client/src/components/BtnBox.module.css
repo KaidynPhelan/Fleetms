@@ -1,6 +1,7 @@
 .content {
     width: 25%;
-    background-color: red;
+    background-color: lightgrey;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

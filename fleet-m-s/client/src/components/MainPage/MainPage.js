@@ -5,13 +5,9 @@ import classes from './Layout.module.css';
 
 function Layout(props) {
     return (
-        <div>
-            <MainNavigation />
-            <div className={classes.content}>
-                <ContentBox />
-                <BtnBox />
-            </div>
-            
+        <div className={classes.content}>
+            <ContentBox />
+            <BtnBox />
         </div>
     );
 }
