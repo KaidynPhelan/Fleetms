@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
+import VehiclePageItem from '../VehiclePageItem';
 
 
 
@@ -24,7 +25,7 @@ function VehiclePage() {
 
     return (
         <div>
-            {/* Build page layout for car page */}
+            <VehiclePageItem Vehicle={Vehicle} />
         </div>
     );
 }

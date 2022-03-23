@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route index element = {<MainPage />} />
           <Route path="/:id" element = {<VehiclePage />} />
+          
         </Routes>
       </Router>
     </div>

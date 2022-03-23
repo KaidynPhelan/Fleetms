@@ -9,6 +9,12 @@
 
 .registration {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     
+}
+
+.SelectButton{
+    border: 2px solid black;
+    text-decoration: none;
+    box-sizing: border-box;
 }

@@ -16,7 +16,7 @@ function VehicleListItem ({Vehicle}) {
                 <p>Patrol Run: {Vehicle.run}</p>
             </div>
             <div>
-                <Link to =  {"/" + Vehicle._id}>Select</Link>
+                <Link to =  {"/" + Vehicle._id} className = {classes.SelectButton}>Select</Link>
             </div>
            
         </div>

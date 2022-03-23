@@ -1,0 +1,19 @@
+.contentbox {
+    width: 70%;
+    min-height: 500px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+
+
+}
+
+.title {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
